@@ -13,6 +13,6 @@
     </head>
     <body>
         <p>your BMI is ${model.bmi}</p>
-        
+        <p>your weight is ${model.result}</p>
     </body>
 </html>

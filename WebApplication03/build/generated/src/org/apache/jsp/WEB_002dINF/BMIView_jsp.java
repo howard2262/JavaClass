@@ -52,9 +52,11 @@ public final class BMIView_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    </head>\n");
       out.write("    <body>\n");
       out.write("        <p>your BMI is ");
-      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${model.hei}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${model.bmi}", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("</p>\n");
-      out.write("        \n");
+      out.write("        <p>your weight is ");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${model.result}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("</p>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
